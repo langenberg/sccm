@@ -2,10 +2,11 @@
 
 S3method(plot,sccm)
 S3method(print,sccm)
+S3method(summary,sccm)
 export(get_plot)
 export(sccm)
 export(sccm_gui)
-export(summary.sccm)
+importFrom(dplyr,select)
 importFrom(lavaan,summary)
 importFrom(openxlsx,read.xlsx)
 importFrom(tools,file_ext)

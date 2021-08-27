@@ -1,4 +1,5 @@
 #' @keywords internal
+#' @importFrom dplyr select
 collect_results <- function(mod) {
     results <- parTable(mod$fit) %>%
         filter(label != "") %>%
@@ -292,7 +293,7 @@ summary.sccm <- function(mod) {
     print(mod$results)
     cat("\n\n")
     if (!is.null(mod$perm_test)) {
-        (mod$perm_test)
+        print(mod$perm_test)
     }
 }
 

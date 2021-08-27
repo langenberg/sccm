@@ -36,6 +36,7 @@ ui <- fluidPage(
                          min = 100,
                          max = Inf,
                          step = 100),
+            br(),
             actionButton("btn_run", "run!")
         ),
 
@@ -71,7 +72,6 @@ server <- function(input, output, session) {
     dat <- NULL
     mod <- NULL
     warning <- NULL
-    dats <- data_sets
 
     observe({
         in_file <- input$file_dat
