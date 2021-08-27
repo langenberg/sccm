@@ -1,0 +1,20 @@
+Package: sccm
+Type: Package
+Title: Single-Case Causal Mediation Analysis
+Version: 0.1
+Author: Benedikt Langenberg [aut, cre]
+Maintainer: Benedikt Langenberg <benedikt.langenberg@gmail.com>
+Depends:
+    R (>= 3.4.0),
+    shiny,
+    tidyverse,
+    lavaan,
+    ggdag,
+    dagitty
+Imports:
+    tools
+Description: This package estimates Single-Case Causal Mediation Analysis
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
