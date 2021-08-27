@@ -1,4 +1,4 @@
-# SCCM
+# SCCM - Single-Case Causal Mediation Analysis
 
 
 ## Example data
