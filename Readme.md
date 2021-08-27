@@ -3,7 +3,7 @@
 
 ## Example data
 
-1. First load some libraries.
+1. First, load some libraries.
 
 ```R
 library(tidyverse)
@@ -11,7 +11,7 @@ library(openxlsx)
 library(sccm)
 ```
 
-2. Next download the example data by Mayhugh et al. (2018) from [DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.p63d200) and extract the zip file.
+2. Next, download the example data by Mayhugh et al. (2018) from [DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.p63d200) and extract the zip file.
 
 3. Read the 29th participant from the data.
 
