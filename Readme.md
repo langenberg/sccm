@@ -1,5 +1,18 @@
 # SCCM - Single-Case Causal Mediation Analysis
 
+## Installation
+
+1. Install the `devtools` package.
+
+```R
+install.packages("devtools")
+```
+
+2. Install the `sccm` package.
+
+```R
+devtools::install_github("lanngeberg/sccm")
+```
 
 ## Example data
 
