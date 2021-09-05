@@ -11,7 +11,7 @@ install.packages("devtools")
 2. Install the `sccm` package.
 
 ```R
-devtools::install_github("lanngeberg/sccm")
+devtools::install_github("langenberg/sccm")
 ```
 
 ## Example data
